@@ -1,0 +1,40 @@
+#1629771992
+export Devops_USERNAME=10-3-211-142.dev-client.test_TEST01
+#1629771992
+export Devops_PASSWORD=OppoOps#123
+#1629771992
+cd /oppo/work/
+#1629771992
+ls
+#1629771992
+export Devops_USERNAME=10-3-211-142.dev-client.test_TEST01
+#1629771992
+
+#1629771992
+curl -u 10-3-211-142.dev-client.test_TEST01:OppoOps#123 http://fabric.oppoer.me/docs/XKq4MRB9lbCg58kN
+#1629771992
+
+#1629771992
+python -m SimpleHTTPServer 8001
+#1629771992
+scp ~/product_iot2021.tar.gz root@puppet.oppoer.me:/root/
+#1629771992
+cd /opt/devops_server
+#1629771992
+wget http://fabric.oppoer.me/download/hiserver
+#1629771992
+chmod a+x hiserver
+#1629771992
+./hiserver
+#1629771992
+ssh "devops"@console.oppoer.me -p 2022
+#1629771992
+ssh -i ~/.ssh/id_rsa 10-3-211-142.dev-client.test_TEST01@console.oppoer.me
+#1629771992
+ls
+#1629771992
+ping -c 2 fabric.oppoer.me
+#1629771992
+ls
+#1629771992
+mysql -h console.oppoer.me -u $Devops_USERNAME -P 3306 -p idev@!20180812
