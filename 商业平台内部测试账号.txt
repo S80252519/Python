@@ -6,10 +6,10 @@
 # 刘少华 专用
 # 一期后台
 后台地址：http://console.oppoer.me/
-账号：10-3-211-142.honeypot-client.test_TEST01
+账号：10-3-211-142.dev-client.test_TEST01
 密码：liu2019123!
 
 # 二期登录账号
 后台地址：http://console.oppoer.me/
-账号：10-3-211-142.honeypot-client.test_TEST01
+账号：10-3-211-142.dev-client.test_TEST01
 密码：OppoOps#123
